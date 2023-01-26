@@ -5,7 +5,6 @@ on:
     # string has to be quoted.
     - cron: '0/15 * * * *'
 jobs:
-jobs:
   renovate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
